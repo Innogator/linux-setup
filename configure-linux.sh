@@ -25,4 +25,9 @@ git config --list
 # neovim
 sudo apt install neovim -y
 sudo apt install tmux -y
-sudo apt install zsh
+
+# zsh
+sudo apt install zsh -y
+chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
