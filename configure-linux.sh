@@ -27,7 +27,11 @@ git config --global credential.helper store
 
 # neovim
 sudo apt install neovim -y
+sudo apt install xterm -y
 git config --global core.editor nvim
+git clone https://github.com/Innogator/vim.git ~/Vim
+ln -s ~/Vim/.vimrc ~/.vimrc
+ln -s ~/Vim/init.vim ~/init.vim
 
 # tmux
 sudo apt install tmux -y
